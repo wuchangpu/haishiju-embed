@@ -1,0 +1,149 @@
+table{
+	font-family: "verdana", "Arial", "Helvetica"; color: #404145;
+	border-collapse: collapse;
+	border-color: #D4D4D4;
+	border-width: 0px;
+	border-style: solid;
+}
+.tdTitle{
+	border-color:#D4D4D4;
+	border-width: 0px;
+	border-style: solid;
+	font:"ËÎÌå";
+	font-size:12pt;
+}
+td{
+	border-color:#D4D4D4;
+	border-width: 0px;
+	border-style: solid;
+	font:"ËÎÌå";
+	font-size:9pt;
+}
+.tdIndex{
+	padding-top:8px;
+	vertical-align:top;
+}
+.tdCommon {
+	border-color:#D4D4D4;
+	border-width: 1px;
+	border-style: solid;
+	font:"ËÎÌå";
+	font-size:9pt;
+	padding-left:2px;
+}
+
+.thQuery {
+	font-size: 12px; color:#404145;
+ 	border-color:#D4D4D4;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: normal;
+	height: 26;
+	background-color:#E6F2FE;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: right;
+}
+.thResult {
+	font-size: 12px; color:#000000;
+ 	border-color:#D4D4D4;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: normal;
+	height: 26;
+	background-color:#E6F2FE;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align:center;
+}
+.btnQuery {
+	font-size: 12px;
+	font-family: "ËÎÌå";color: white;	
+	background-image: url(../images/msa/queryBtn.jpg);
+	background-repeat:no-repeat;
+	background-position:top; 			
+	border:none;
+	cursor: hand; 
+	text-align:center;
+	height: 22px;
+	width: 60px;
+}
+.btnReset {
+	font-size: 12px;
+	font-family: "ËÎÌå";color: white;	
+	background-image: url(../images/msa/resetBtn.jpg);
+	background-repeat:no-repeat;
+	background-position:top; 
+	border: 0px;
+	cursor: hand; 
+	text-align:center;
+	height: 22px;
+	width: 60px;
+}
+a{
+	font-weight:normal;
+	color: #404145;
+	font:"ËÎÌå";
+	text-decoration:none;
+}
+.tableTitle {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #d4d4d4;
+	background-color: #f9f9f9;
+	border-bottom-color: #2371bb;
+	border-bottom-width: 2px;
+}
+.titleFont{
+	font-family: Î¢ÈíÑÅºÚ;
+	color: #005ec9;
+	font-weight: bold;
+}
+.titleNumFont{
+	font-family: Î¢ÈíÑÅºÚ;
+	color: orange;
+	font-size: 22px;
+	font-weight: bold;
+}
+.busiTitleFont{
+	font-family: Î¢ÈíÑÅºÚ;
+	color: #2371bb;
+	font-weight: bold;
+}
+.yzm{
+	background-color: white;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1;
+}
+.error {
+	list-style-image: url("../skins/images/error.gif");
+	list-style-position: inside;
+	vertical-align: middle;
+	padding-left: 8px;
+	text-align: left;
+	color: red;
+}
+
+.success {
+	list-style-image: url("../skins/images/success.gif");
+	list-style-position: inside;
+	vertical-align: middle;
+	padding-left: 8px;
+	text-align: left;
+	color: red;
+}
+.warn {
+	list-style-image: url("../skins/images/warn.gif");
+	list-style-position: inside;
+	vertical-align: middle;
+	padding-left: 8px;
+	text-align: left;
+	color: red;
+}
+.footer{
+	background-image: url("../images/msa/root2.jpg");
+	height:85px;
+	text-align:center;
+	vertical-align:middle;
+}
